@@ -4,32 +4,6 @@ import MealItem from "./MealItem/MealItem";
 import classes from "./Meals.module.css";
 import { useState, useEffect } from "react";
 
-const MealList = [
-  {
-    id: "m1",
-    name: "pizza 1",
-    description: "pizza nhưng với nội dung chi tiết hơn",
-    price: 22.99,
-  },
-  {
-    id: "m2",
-    name: "pizza 2",
-    description: "pizza nhưng với nội dung chi tiết hơn",
-    price: 25.99,
-  },
-  {
-    id: "m3",
-    name: "pizza 3",
-    description: "pizza nhưng với nội dung chi tiết hơn",
-    price: 19.99,
-  },
-  {
-    id: "m4",
-    name: "pizza 4",
-    description: "pizza nhưng với nội dung chi tiết hơn",
-    price: 33.99,
-  },
-];
 const Meals = () => {
   const [list, setList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

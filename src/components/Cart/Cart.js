@@ -48,7 +48,7 @@ function Cart(props) {
   });
   setIsSubmit(false)
   setIsRequesting(!isRequesting)
-  console.log(true);
+  CartCtx.clearItem();
   }
   const cartItems = (
     <ul className={classes["cart-item"]} >
