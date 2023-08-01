@@ -1,0 +1,5 @@
+
+.slider{
+    height: calc(80vh - 65px );
+    object-fit: cover;
+}
